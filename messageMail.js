@@ -112,6 +112,24 @@ const messageMail =
                             </div>
                         </div>
                     </div>
+                    <div align="center">
+                        <div style=" text-align: center; padding: 10px; ">
+                            <img src="https://res.cloudinary.com/aztec/image/upload/v1628657771/logo192_ms1tie.png" alt=""
+                                style=" width: 100px; ">
+                        </div>
+                        <div
+                            style="font-family:Helvetica,Arial,Helvetica,sans-serif;color:#111111;font-size:14px;line-height:18px;padding:0 0 10px;font:500 14px/20px Arial,Helvetica,sans-serif,Fira;color:#615e5e">
+                            © 2021 AZtecCNC. All rights reserved.
+                        </div>
+                        <div
+                            style="font-family:Helvetica,Arial,Helvetica,sans-serif;color:#111111;font-size:14px;line-height:18px;font:500 14px/20px Arial,Helvetica,sans-serif,Fira;color:#0078ff">
+                            <a href=""
+                                style="font-family:Helvetica,Arial,Helvetica,sans-serif;font-size:14px;line-height:18px;font-weight:bold;color:#005ce4;color:#0078ff;text-decoration:underline"
+                                target="_blank"
+                                data-saferedirecturl="https://www.google.com/url?q=&amp;source=gmail&amp;ust=1628682026252000&amp;usg=AFQjCNE6PV1oMFEeyDbJ0ozOvNm_93Cg5g">
+                                Contact Us</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
