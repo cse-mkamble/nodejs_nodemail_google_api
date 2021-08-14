@@ -2,7 +2,9 @@ require('dotenv').config()
 const sendMail = require('./sendMail')
 const messageMail = require('./messageMail')
 
-const email = "shiv.ramteke@gmail.com"
+var name = 'Mayur'
+
+const email = "cse.mkamble@gmail.com"
 const subject = "test"
-const message = messageMail
+const message = messageMail(name)
 sendMail( email, subject, message )

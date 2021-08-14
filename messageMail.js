@@ -1,5 +1,5 @@
-const messageMail =
-    `
+const messageMail = (name) => {
+    return `
         <div>
             <div style=" background-image: linear-gradient( #005CE4, #e4ebf1); width:100%;">
                 <div style=" padding: 20px 5px; ">
@@ -26,7 +26,7 @@ const messageMail =
                                     style="font-family:Helvetica,Arial,Helvetica,sans-serif;color:#111111;font-size:12px;line-height:18px;padding-left:0;padding-right:0;padding:20px 20px 0px;font:500 16px/22px Arial,Helvetica,sans-serif,Fira">
                                     <br>
                                     <br>
-                                    toSendMailName,
+                                    ${name},
                                     <br>
                                     <br>
                                     Congratulations! You're almost set to start using AZtecCNC.
@@ -134,5 +134,5 @@ const messageMail =
             </div>
         </div>
     `
-
+}
 module.exports = messageMail
